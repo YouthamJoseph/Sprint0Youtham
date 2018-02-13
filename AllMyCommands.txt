@@ -1,0 +1,11 @@
+cd "D:\GUC 37-Engineering\Semester 6\CSEN 603 - Software Engineering\Project\Sprint0"
+git init
+git status
+git add -A
+rm "3.1 Git Branching - Branches in a Nutshell.txt"
+git status
+git checkout "3.1 Git Branching - Branches in a Nutshell.txt"
+$ git config --global user.email "youssamjoseph@gmail.com"
+$ git config --global user.name "Youtham Joseph"
+git remote add origin https://github.com/YouthamJoseph/Sprint0Youtham.git
+git push -u origin master
