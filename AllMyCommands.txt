@@ -1,11 +1,23 @@
-cd "D:\GUC 37-Engineering\Semester 6\CSEN 603 - Software Engineering\Project\Sprint0"
-git init
-git status
-git add -A
-rm "3.1 Git Branching - Branches in a Nutshell.txt"
-git status
-git checkout "3.1 Git Branching - Branches in a Nutshell.txt"
+$ cd "D:\GUC 37-Engineering\Semester 6\CSEN 603 - Software Engineering\Project\Sprint0"
+$ git init
+$ git status
+$ git add -A
+$ rm "3.1 Git Branching - Branches in a Nutshell.txt"
+$ git status
+$ git checkout "3.1 Git Branching - Branches in a Nutshell.txt"
+$ git commit -m "Committed the required files"
 $ git config --global user.email "youssamjoseph@gmail.com"
 $ git config --global user.name "Youtham Joseph"
-git remote add origin https://github.com/YouthamJoseph/Sprint0Youtham.git
-git push -u origin master
+$ git remote add origin https://github.com/YouthamJoseph/Sprint0Youtham.git
+$ git push -u origin master
+$ git branch ReadMe
+$ git branch
+$ git checkout ReadMe
+$ git add "README.md"
+$ git commit -m "Adding the README file"
+$ git checkout master
+$ git merge ReadMe
+$ git status
+$ git add "AllMyCommands.txt"
+$ git commit -m "adding the AllMyCommands file"
+$ git push
