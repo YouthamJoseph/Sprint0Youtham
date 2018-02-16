@@ -21,3 +21,10 @@ $ git status
 $ git add "AllMyCommands.txt"
 $ git commit -m "adding the AllMyCommands file"
 $ git push
+--here I realised I pushed the wrong AllMyCommands.txt file so I changed it and pushed it back using the coming commands
+$ git checkout ReadMe
+$ git add "README.md"
+$ git commit -m "File Correction"
+$ git checkout master
+$ git merge ReadMe
+$ git push -u origin master
